@@ -1,0 +1,539 @@
+* , *:after, *:before {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+         -o-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body {
+    font-family: Arial,Tahoma;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* Start Conrad Section */
+.conrad {
+    width: 100%;
+    height: 620px;
+    background-image: url('../images/slide-1-fs.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 0px 6px 10px #000;
+    margin-bottom: 8px;
+}
+.conrad header {
+    padding-top: 20px;
+}
+.conrad .header {
+    display: none;
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+    padding-left: 8%;
+    background: rgba(0, 0, 0, 0.9);
+}
+.conrad .logo {
+    width: 50%;
+    float: left;
+    font-size: 1.7em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #eae6e6;
+    letter-spacing: 2px;
+}
+.conrad nav {
+    width: 50%;
+    float: left;
+}
+.conrad nav ul {
+    padding-left: 50px;
+}
+.conrad nav ul li {
+    display: inline-block;
+    padding-left: 15px;
+}
+.conrad nav ul li a {
+    color: #eae6e6;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+.conrad nav ul li a:hover {
+    color: #222;
+    font-weight: bold;
+    font-style: italic;
+    transition: all 0.4s ease-in-out;
+}
+.conrad .digital {
+    margin-top: 25%;
+}
+.conrad .digital p {
+    color: #eae6e6;
+}
+.conrad .digital p:first-child {
+    font-size: 3em;
+    font-weight: 650;
+    letter-spacing: 4px;
+}
+.conrad .digital p:last-child {
+    cursor: pointer;
+    margin-top: 10px;
+}
+.conrad .digital p span {
+    transition: all 0.5s ease-in-out;
+}
+.conrad .digital p:last-child:hover span {
+    display: inline-block;
+    transform: rotate(360deg);
+}
+/* End Conrad Section */
+
+/* Start About */
+.about {
+    width: 100%;
+    height: 460px;
+    padding: 65px 0 60px;
+    background: #fff;
+}
+.about .creative,
+.about .awsemoe,
+.about .office {
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+}
+
+.about .awsemoe > div,
+.about .office > div {
+    overflow: hidden;
+    position: relative;
+}
+/*.about .awsemoe > div .overlay,
+.about .office > div .overlay {
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+*/
+.about .awsemoe img,
+.about .office img {
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+.about .awsemoe > div:hover img,
+.about .office > div:hover img {
+    transform: scale(1.2);
+}
+.about .awsemoe > div:hover .overlay,
+.about .office > div:hover .overlay {
+    display: block;
+}
+.about .creative {
+    margin-left: 0;
+}
+.about .creative h2 {
+    font-size: 2em;
+    color: #444;
+    letter-spacing: 1px;
+    margin-bottom: 5%;
+}
+.about .creative p {
+    margin-bottom: 7%;
+}
+.about .creative p:nth-of-type(1) span {
+    font-weight: bold;
+    color: #444;
+}
+.about .creative p:nth-of-type(1) {
+    color: #777;
+    line-height: 1.5;
+}
+.about .creative p:nth-of-type(2) {
+    color: #777;
+    line-height: 1.5;
+}
+.about .creative p:nth-of-type(3) a {
+    text-decoration: none;
+    color: #555;
+    transition: all 0.5s ease-in-out;
+}
+.about .creative p:nth-of-type(3) a:hover {
+    text-decoration: none;
+    color: #000;
+}
+.about .awsemoe h3,
+.about .office h3 {
+    margin: 4% 0 4%;
+    color: #444;
+}
+.about .awsemoe p,
+.about .office p {
+    color: #777;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.3;
+}
+/* End About */
+
+/* Start Folio */
+.folio {
+    width: 100%;
+    background-image: url(../images/slide-7-fw.jpg);
+    background-size: cover;
+    height: 500px;
+    background-attachment: fixed;
+    text-align: center;
+    color: #eae6e6;
+    line-height: 1.7;
+    font-family: sans-serif;
+}
+.folio .folio_part {
+    padding-top: 14%;
+}
+.folio .folio_part h4 {
+    font-weight: normal;
+    font-size: 24px
+}
+.folio .folio_part p {
+    font-weight: 550;
+    font-size: 18px;
+}
+.folio .folio_part p.two {
+    display: none;
+}
+.folio .folio_part span {
+    font-size: 16px;
+    font-style: italic;
+}
+.folio .folio_part button {
+    width: 150px;
+    padding: 10px;
+    background: #000;
+    opacity: .4;
+    border: 2px solid #eae6e6;
+    outline: 0;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.folio .folio_part button:hover {
+    background: #92631d;
+    opacity: .8;
+    border: 2px solid #333;
+}
+/* End Folio */
+
+/* Start Solution */
+.solution {
+    width: 100%;
+    height: 450px;
+    padding: 70px 0 60px;
+}
+.solution .tailor {
+    width: 50%;
+    float: left;
+}
+.solution .tailor h2 {
+    font-size: 2em;
+    margin-bottom: 4%;
+    color: #333;
+}
+.solution .tailor p:nth-of-type(1) {
+    font-size: 18px;;
+    color: #555;
+    margin-bottom: 3%;
+}
+.solution .tailor p:nth-of-type(2) {
+    font-size: 18px;;
+    color: #999;
+    line-height: 1.5;
+    margin-bottom: 3%;
+}
+.solution .tailor p:nth-of-type(3) a {
+    color: #444;
+    text-decoration: none;
+}
+.solution .acordion {
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+}
+.solution .acordion h3 {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+.solution .acordion p {
+    background-color: #ddd;
+    color: #555;
+    padding: 10px;
+    display: none;
+}
+/* End Solution */
+
+/* Start Study */
+.study {
+    width: 100%;
+    height: 500px;
+    background: #e62739;
+}
+.study .app {
+    width: 50%;
+    float: left;
+    height: 500px;
+    color: #fff;
+}
+.study .app h2 {
+    padding-top: 22%;
+}
+.study .app p {
+    margin-top: 2%;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 7%;
+    color: #eae6e6;
+}
+.study .app p:nth-of-type(3) a {
+    text-decoration: none;
+    color: #fff;
+}
+.study .download {
+    width: 50%;
+    height: 500px;
+    float: right;
+    background-image: url("../images/hero-half-3.jpg");
+}
+.study .download .number {
+    width: 50%;
+    height: 200px;
+    margin: 25% auto;
+    text-align: center;
+    color: #fff;
+}
+.study .download .number .left {
+    width: 50%;
+    float: left;
+}
+.study .download .number .left p,
+.study .download .number .right p {
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-size: 2.5em;
+}
+.study .download .number .right {
+    width: 50%;
+    float: right;
+}
+/* End Study */
+
+/* Start Recent */
+.recent {
+    width: 100%;
+    height: 900px;
+    padding: 70px 0 70px 0;
+}
+.recent .center {
+    text-align: center;
+}
+.recent .center h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+.recent .center nav span {
+    color: #555;
+    font-size: 17px;
+    padding-left: 15px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-bottom: 3%;
+    display: inline-block;
+    cursor: pointer;
+}
+.recent .all_img .left {
+    width: 50%;
+    float: left;
+}
+.recent .all_img .left .bird {
+    width: 50%;
+    float: left;
+}
+.recent .all_img .left .bird img,
+.recent .all_img .left .man img {
+    width: 100%;
+    box-shadow: 0px 10px 20px #000;
+    margin-bottom: 1px;
+}
+.recent .all_img .left .man {
+    width: 50%;
+    float: left;
+}
+.recent .all_img .right {
+    width: 50%;
+    float: left;
+}
+.recent .all_img .right .opne {
+    width: 100%;
+}
+.recent .all_img .right .opne img {
+    height: 455px;
+    width: 100%;
+    box-shadow: 0px 10px 20px #000;
+    margin-bottom: 1px;
+}
+.recent .all_img .right .close {
+    width: 100%;
+}
+.recent .all_img .right .close .f {
+    width: 50%;
+    float: left;
+}
+.recent .all_img .right .close .l {
+    width: 50%;
+    float: left;
+}
+.recent .all_img .right .close img:nth-of-type(1) {
+    width: 100%;
+    float: left;
+    box-shadow: 0px 10px 20px #000;
+    margin-bottom: 1px;
+}
+.recent .all_img .right .close img:nth-of-type(2) {
+    width: 100%;
+    float: left;
+    box-shadow: 0px 10px 20px #000;
+    margin-bottom: 1px;
+}
+
+.mix {
+    display: none;
+}
+/* End Recent */
+
+/* Start Clients */
+.clients {
+    width: 100%;
+    height: 220px;
+    clear: both;
+    padding: 45px 0 45px;
+    background-color: #9068be;
+    color: #dfe4ea;
+    box-shadow: 3px 2px 61px 17px #353b48 inset;
+}
+.clients .client {
+    width: 20%;
+    float: left;
+}
+.clients .client p {
+    line-height: 2.5;
+}
+.clients .client span {
+    color: #bdc3c7;
+}
+/* Start Clients */
+
+/* Start Footer */
+footer {
+    height: 380px;
+    width: 100%;
+    padding-top: 40px;
+    background: #222;
+    color: #fff;
+    position: relative;
+}
+footer .conradf {
+    width: 22%;
+    float: left;
+    margin-left: 2%;
+}
+footer .conradf h2 {
+    font-size: 38px;
+    color: #eae6e6;
+}
+footer .conradf h3 {
+    margin-bottom: 15px;
+    color: #eae6e6;
+}
+footer .conradf a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    line-height: 2.5;
+    color: #888;
+}
+footer .conradf p {
+    color: #888;
+    margin-bottom: 8%;
+    line-height: 1.5;
+}
+footer .conradf input {
+    display: block;
+    background: none;
+    outline: 0;
+    padding: 8px;
+    margin-bottom: 2%;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+footer .conradf input[type=email] , footer .conradf input[type=text] {
+    border: 0;
+    margin-top: 15px;
+    border-radius: 0px;
+    border-bottom: 1px solid #eae6e6;
+}
+footer .conradf input[type=submit] {
+    border: 2px solid #888;
+    margin-bottom: 8px;
+    cursor: pointer;
+    width: 40%;
+    color: #888;
+}
+footer .conradf span {
+    color: #888;
+}
+footer .footer {
+    width: 100%;
+    height: 70px;
+    background-color: #000;
+    position: absolute;
+    bottom: 0;
+    line-height: 70px;
+}
+footer .footer .left {
+    float: left;
+}
+footer .footer .left i {
+    margin-left: 10px;
+    padding: 5px;
+}
+footer .footer .right {
+    float: right;
+}
+footer .footer .right a {
+    text-decoration: none;
+    color: #fff;
+}
+/* End Footer */
