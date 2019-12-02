@@ -72,10 +72,8 @@ body {
     letter-spacing: 1.5px;
 }
 .conrad nav ul li a:hover {
-    color: #222;
-    font-weight: bold;
-    font-style: italic;
-    transition: all 0.4s ease-in-out;
+    color: #ffffff;
+    transition: all 0.1s ease-in-out;
 }
 .conrad .digital {
     margin-top: 25%;
@@ -135,7 +133,7 @@ body {
 .about .awsemoe img,
 .about .office img {
     width: 100%;
-    transition: all 0.5s ease-in-out;
+    transition: all 0.6s ease-in-out;
 }
 .about .awsemoe > div:hover img,
 .about .office > div:hover img {
